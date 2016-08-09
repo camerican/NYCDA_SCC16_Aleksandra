@@ -1,0 +1,52 @@
+body{background-color: #F0F8FF;
+	text-align: center;
+	width: 100%;
+}
+
+.box{
+background-image: url("http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/05/shards_pattern.jpg");
+width: 200px;
+height: 180px;
+display: inline-block;
+margin: 20px;
+padding: 20px;
+}
+#a:hover{
+	background-image: url("http://www.gtreview.com/wp-content/uploads/2015/07/Cape-Town-South-Africa-trees-nature-mountains-619x413.jpg");
+	width: 580px;
+	height: 350px;
+	position: relative;
+
+}
+#b:hover{
+	background-image: url("https://secure.as1.wdpromedia.com/resize/mwImage/1/1260/540/90/secure.parksandresorts.wdpromedia.com/media/abd/refresh/asia-africa-australia/south-africa-vacations/adventures-by-disney-asia-afica-and-australia-south-africa-hero-01-leopards-on-the-african-bush.jpg");
+	width: 580px;
+	height: 350px;
+	position: relative;
+}
+#media{
+	left: 0;
+	position: fixed;
+	top: 100px;
+	z-index: 10;
+
+}
+#media a{
+left: 0;
+	position: relative;
+	text-align: center;
+	display: block;
+	border-radius: 25px;
+	background: #D3D3D3
+;
+	color: #fff;
+	padding: 10px;
+
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+a{text-decoration: none;}

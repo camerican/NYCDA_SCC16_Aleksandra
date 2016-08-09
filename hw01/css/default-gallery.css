@@ -1,0 +1,113 @@
+body{
+	background-color: #F0F8FF;
+	text-align: center;
+	width: 100%;
+}
+main{
+	width: 840px;
+	height: 100px;
+	background-color: #778899;
+	margin: auto;
+}
+
+.box{
+background-image: url("http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/05/shards_pattern.jpg");
+width: 200px;
+height: 180px;
+display: inline-block;
+margin: 20px;
+padding: 20px;
+
+}
+h2{color: grey}
+.box:hover{
+	width: 250px;
+	height: 220px;
+	margin-top: -18px;
+	-moz-box-shadow: 0 0 50px grey;
+	-webkit-box-shadow: 0 0 50px grey;
+	box-shadow: 0 0 50px grey;
+}
+.box img:hover{
+	width: 210px;
+	height: 180px;
+	-moz-box-shadow: 0 0 50px white;
+	-webkit-box-shadow: 0 0 50px white;
+	box-shadow: 0 0 50px white;
+}
+.box img{
+	width: 160px;
+	height: 140px;
+	margin: auto;
+	padding: 20px;
+}
+.grey{width: 840px;
+	height: 100px;
+	background-color: #778899;
+	margin: auto;
+	position: fixed;
+z-index:-1;}
+
+#media{
+	left: 0;
+	position: fixed;
+	top: 100px;
+	z-index: 10;
+
+}
+#media a{
+	left: 0;
+	position: relative;
+	text-align: center;
+	display: block;
+	background: #D3D3D3;
+	border-radius: 25px;
+	color: #fff;
+	padding: 10px;
+
+
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+a{text-decoration: none;}
+
+.box h1{
+display: none;
+}
+.box h3{
+display: none;
+}
+.box:hover h1{
+	display: inline;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	z-index: 11;
+	font-family: Florence, cursive;
+}
+.box:hover h3{
+	display: inline;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	z-index: 11;
+font-family: Florence, cursive;}
+nav li {list-style: none; 
+display: inline-block;
+padding: 20px;
+font-size: 2em;}
+a{color: darkblue}
+a:visited{color: grey}
+
+ li:hover{ 
+text-decoration: underline;
+font-size: 3em; }
+li:visited {color: grey;
+text-decoration: underline;}
+
+
+
